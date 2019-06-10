@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 800;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background: #55d6aa;
+        }
+
+
+        .name {
+
+            float: left;
+            padding: 30px 40px;
+            background-color: teal;
+            content: inherit;
+            color: white;
+            margin: initial;
+        }
+
+        .about-me {
+            color: teal;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            margin: 20px;
+            padding: 15px;
+            list-style: none;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-left: 70px;
+            padding-top: 23px;
+            position: relative;
+        }
+
+        nav a {
+            color: gray;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        nav a::before {
+            content: '';
+            display: block;
+            height: 5px;
+
+            position: absolute;
+            top: 0;
+            width: 0%;
+
+            transition: all ease-in-out 250ms;
+        }
+
+        div {
+            margin: 10% 10%;
+            background-color: white;
+        }
+
+        nav a:hover::before {
+            width: 100%;
+        }
+        .border-right {
+            border-right: 1px solid gray;
+            
+        }
+        main {
+            float: left;
+            padding: 40px 20px;
+            background-color: azure;
+            overflow: auto;
+        }
+
+        footer {
+            background-color: teal;
+            padding: 20px;
+            color: white;
+            float: left;
+            text-align: center;
+            width: 100%;
+        }
+        .picture{
+            width: 200px;
+            height:200px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="name">Calvin Vo</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="border-right">About   </a></li>
+                    <li><a href="porfolio.html" class="border-right">Portfolio   </a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1 class="about-me">About Me</h1>
+            <img class="picture" src="../assets/images/36596067_10212596917702508_6888711119934849024_n.jpg"
+                alt="My picture">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum perspiciatis omnis facilis quos commodi
+                consectetur iusto beatae dolorem amet, eius ducimus ad ipsam saepe eos sed veritatis provident
+                accusantium. Harum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda iure molestiae
+                pariatur nisi velit, neque, amet facilis rerum, accusamus sunt praesentium. Aliquid porro placeat illum
+                quibusdam facilis dolores eaque iure.</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatum animi aliquam eaque
+                accusantium incidunt vel cupiditate sed deleniti eos doloremque suscipit praesentium tempore commodi
+                facere at, minus quae! Deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis non
+                quaerat excepturi perferendis, officia assumenda optio mollitia cumque modi dicta tenetur! Eaque at aut
+                recusandae. Voluptatibus ratione error sapiente odio?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque esse accusamus vel earum? Architecto quae
+                cum facere nisi consectetur sed quo expedita illo autem repudiandae! Animi temporibus ab corporis
+                voluptatum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt accusantium modi nesciunt,
+                necessitatibus numquam minima qui sapiente est enim nobis amet impedit molestiae eos exercitationem,
+                iure cupiditate? Amet, deserunt quod.
+            </p>
+        </div>
+    </main>
+    <footer>
+        Copyright
+    </footer>
+</body>
+
+</html>

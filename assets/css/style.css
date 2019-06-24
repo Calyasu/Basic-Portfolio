@@ -94,25 +94,7 @@ footer {
     text-align: center;
     width: 100%;
 }
-section{
-    width: 350px;
-    height: 275px;
-    box-shadow: 5px 10px 8px gray;
-    float: left;
-    margin: 20px;
-}
-h2{
-    padding: 20px;
-    text-align: center;
-    float: right;
-}
-.contact{
-    color: teal;
-}
-h1{
-    float: left;
-}
-form{
-    margin:0;
-    float:left;
+.picture{
+    width: 200px;
+    height:200px;
 }

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 800;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background: #55d6aa;
+        }
+
+
+        .name {
+
+            float: left;
+            padding: 30px 40px;
+            background-color: teal;
+            content: inherit;
+            color: white;
+            margin: initial;
+        }
+
+        .about-me {
+            color: teal;
+        }
+
+        nav {
+            float: right;
+        }
+
+        nav ul {
+            margin: 20px;
+            padding: 15px;
+            list-style: none;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-left: 70px;
+            padding-top: 23px;
+            position: relative;
+        }
+
+        nav a {
+            color: gray;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        nav a::before {
+            content: '';
+            display: block;
+            height: 5px;
+
+            position: absolute;
+            top: 0;
+            width: 0%;
+
+            transition: all ease-in-out 250ms;
+        }
+
+        div {
+            margin: 10% 10%;
+            background-color: white;
+        }
+
+        nav a:hover::before {
+            width: 100%;
+        }
+        .border-right {
+            border-right: 1px solid gray;
+            
+        }
+        main {
+            float: left;
+            padding: 40px 20px;
+            background-color: azure;
+            overflow: auto;
+        }
+
+        footer {
+            background-color: teal;
+            padding: 20px;
+            color: white;
+            float: left;
+            text-align: center;
+            width: 100%;
+        }
+        section{
+            width: 350px;
+            height: 275px;
+            box-shadow: 5px 10px 8px gray;
+            float: left;
+            margin: 20px;
+        }
+        h2{
+            padding: 20px;
+            text-align: center;
+            float: right;
+        }
+        .contact{
+            color: teal;
+        }
+        h1{
+            float: left;
+        }
+        form{
+            margin:0;
+            float:left;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="name">Calvin Vo</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="border-right">About   </a></li>
+                    <li><a href="porfolio.html" class="border-right">Portfolio   </a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1 class="contact">Contact</h1>
+            <form action="index.html">
+                Name:<br>
+                <input type="text" name="name" value="John Smith" size=170>
+                <br>
+                Email:<br>
+                <input type="text" email="email" value="example@gmail.com" size =170><br><br>
+                Message:<br>
+                <textarea name="message" id="" cols="150" rows="30"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+
+            
+        </div>
+    </main>
+    <footer>
+        Copyright
+    </footer>
+</body>
+
+</html>
